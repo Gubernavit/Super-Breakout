@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ColisorTestCorreto : MonoBehaviour
+public class ColisorTest : MonoBehaviour
 {
     [SerializeField] int i = 0;
     [SerializeField] GameObject quadradoVerde;

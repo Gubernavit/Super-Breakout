@@ -16,8 +16,8 @@ public class Derrota : MonoBehaviour
         if (transform.position.y - 0.2f <= -4.5f)
         {
             gameover.SetActive(true);
-            transform.position = pos;
             bola.SetActive(false);
-         }
+            transform.position = pos;
+        }
     }
 }
